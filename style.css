@@ -17,7 +17,7 @@ header {
     display: inline-block;
     vertical-align: middle;
     justify-content: center;
-    background: black;
+    background: #4da9ff;
     display: inline-block;
 }
 
@@ -69,10 +69,11 @@ nav ul {
 li {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    align-items: left;
 }
 
 nav li {
-    /* list-style: none; */
     margin-right: 1em;
     height: 100%;
 }
@@ -84,6 +85,24 @@ section li {
 
 pre {
     font-size: 18px;
+}
+
+.experiencepic{
+    display: flex;
+    margin: 0;
+    /* border: solid green; */
+    margin-left: 0;
+    margin-right: 0;
+    width: 350px;
+    height: 200px;
+}
+
+.experiencetext{
+    margin: 0;
+    /* border:solid red; */
+    margin-left: 50px;
+    margin-right: 0;
+    height: 200px;
 }
 
 .noBullet {
@@ -112,6 +131,7 @@ pre {
 .center {
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .ProfilePic {
@@ -131,4 +151,13 @@ pre {
 
 .ExpPics {
     margin-right: 5 em;
+}
+
+ul {
+    /* border: dotted blue; */
+}
+
+li {
+    /* border: dotted green; */
+    margin-left: 0;
 }
