@@ -73,6 +73,10 @@ li {
     align-items: left;
 }
 
+.topofpagelink {
+    text-align: center;
+}
+
 nav li {
     margin-right: 1em;
     height: 100%;
