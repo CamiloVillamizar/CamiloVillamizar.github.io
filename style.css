@@ -93,12 +93,13 @@ table {
 }
 
 th {
-    padding: 0;
+    padding-left: 10px;
     justify-content: left;
-    align-items: left;
+    text-align: left;
 }
 
 td {
+    column-width: 150px;
     padding-left: 10px;
 }
 
