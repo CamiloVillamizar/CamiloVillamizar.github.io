@@ -43,8 +43,8 @@ h2 {
     margin: .25em;
 }
 
-h3 a:hover{
-    text-decoration:underline;
+h3 {
+    margin: 0; 
 }
 
 footer {
@@ -59,22 +59,35 @@ footer {
 }
 
 nav ul {
+    padding-left: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+li {
+    display: flex;
+    flex-direction: row;
+}
+
 nav li {
-    list-style: none;
+    /* list-style: none; */
     margin-right: 1em;
     height: 100%;
 }
 
 section li {
     display: inline;
-    list-style: none;
     margin-right: 1em;
+}
+
+pre {
+    font-size: 18px;
+}
+
+.noBullet {
+    /* list-style: none; */
 }
 
 .horizontal {
@@ -82,8 +95,23 @@ section li {
     flex-direction: row;
 }
 
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
 .right {
     float: right
+}
+
+.left {
+    justify-content: left;
+    align-items: left;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
 }
 
 .ProfilePic {
@@ -92,16 +120,13 @@ section li {
     margin-left: 1em;
 }
 
-.white {
-    color: white;
-}
-
-.black {
-    background: black;
-}
-
 .BioSection {
+    display: flex;
+    flex-direction: column;
     background: #f0f0f0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .ExpPics {
