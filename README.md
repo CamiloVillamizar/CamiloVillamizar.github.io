@@ -1,3 +1,2 @@
 # CamiloVillamizar.github.io
-My website portfolio.
-This is still a work in progress
+My website portfolio, this is still a work in progress
